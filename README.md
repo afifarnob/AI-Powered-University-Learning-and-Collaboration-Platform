@@ -107,8 +107,10 @@ accessibility, learning support, and academic collaboration.
 ## Team Information
 
 -   **Official Team Name:** CSE4104-7F-T03
--   **Section:** 7F
 -   **Team Leader:** MD Afif Zaman Arnob
+-   **Member 1:** Israt Zahan
+-   **Member 2:** Sumaya Rahman
+-   **Member 3:** Rumman Shek
 -   **GitHub Repository:** (https://github.com/afifarnob/AI-Powered-University-Learning-and-Collaboration-Platform)
 
 
