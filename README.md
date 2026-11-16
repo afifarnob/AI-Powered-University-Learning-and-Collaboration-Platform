@@ -1,116 +1,106 @@
-# AI-Powered-University-Learning-and-Collaboration-Platform
-University students often use separate platforms for course resources, personal study files, class announcements, online meetings, and learning support. This fragmentation can make it difficult to find materials and keep track of academic activities. The target users are university students, teachers, and academic administrators.
-[README.md](https://github.com/user-attachments/files/34526307/README.md)
-
+# AI-Powered University Learning, Resource Management and Collaboration Platform
 
 ## Project Overview
+The AI-Powered University Learning, Resource Management and Collaboration Platform is a web and mobile-based platform designed to improve university students' learning experience, resource management, and academic collaboration.
 
-This project aims to develop an integrated digital learning platform for
-university students and teachers. It will bring academic resource
-management, AI-powered study support, cloud file storage, and online
-collaboration into one system.
+The platform will provide students and teachers with a centralized environment for sharing educational resources, managing academic activities, communicating, and accessing AI-powered learning assistance.
 
 ## Problem Statement
+University students often face difficulties managing study materials, accessing course resources, receiving important notices, and collaborating with classmates and teachers. Educational resources are frequently scattered across different platforms, making academic management less efficient.
 
-University students often access lecture notes, PDFs, assignments,
-notices, and other academic resources through multiple platforms. This
-makes it difficult to organize materials, find relevant information, and
-collaborate efficiently. Students may also need separate tools for
-AI-based study assistance, document summarization, quiz generation, and
-online meetings.
-
-Our proposed platform will provide a centralized environment where
-students can access course materials, organize personal academic files,
-receive AI-powered study assistance, and participate in online meetings.
-Teachers and administrators will be able to manage academic resources
-and announcements.
+This project aims to solve these problems through an integrated platform with AI-powered features.
 
 ## Objectives
-
--   Provide a centralized platform for academic resources.
--   Support student, teacher, and administrator accounts.
--   Help students understand academic topics through an AI Study
-    Assistant.
--   Summarize PDF documents and generate practice questions using AI.
--   Enable searching across authorized course materials.
--   Support online classes and meetings.
--   Integrate personal cloud storage and notifications.
+- Provide a centralized platform for university learning activities.
+- Make educational resources easily accessible.
+- Improve communication between students and teachers.
+- Provide AI-powered academic assistance.
+- Simplify academic collaboration and resource management.
+- Support online classes and meetings.
 
 ## Proposed Features
 
-### User and Academic Management
+### 1. User Management
+- Student, Teacher, and Admin accounts.
+- Secure registration and login.
+- Role-based access control.
 
--   Student, teacher, and administrator authentication.
--   Role-based access control.
--   Course and semester-based resource organization.
--   Teacher resource uploads, assignments, deadlines, and notices.
--   Student notes, bookmarks, and personal file organization.
+### 2. Learning Resource Management
+- Upload and access notes, PDFs, and study materials.
+- Course-based resource organization.
+- Google Drive integration for personal file storage.
+- Teachers can share course materials.
 
-### AI Features
+### 3. AI Study Assistant
+- Answer academic questions.
+- Explain difficult concepts.
+- Provide learning assistance.
 
--   AI Study Assistant for academic questions and concept explanations.
--   PDF Summarizer for concise notes and key points.
--   AI Quiz Generator for MCQs and practice questions.
--   Course-aware search using authorized academic materials.
+### 4. PDF Summarizer
+- Summarize uploaded PDF documents.
+- Generate concise study notes.
+- Extract important information.
 
-### Collaboration and Cloud Services
+### 5. AI Quiz Generator
+- Generate MCQs and practice questions.
+- Support self-assessment and exam preparation.
 
--   Online audio/video meetings, screen sharing, and chat.
--   Google Drive integration for personal academic files, with user
-    authorization.
--   Email, in-app, and push notifications.
+### 6. Notice and Notification System
+- Teachers and admins can publish notices.
+- Students receive email notifications.
+- Important academic updates.
+
+### 7. Online Meeting and Collaboration
+- Online classes and general meetings.
+- Support for 100+ participants as a design target.
+- Student and teacher collaboration.
+
+### 8. Course-Aware Search
+- Search academic resources.
+- Provide answers based on accessible course materials.
+
+## AI Integration
+Artificial Intelligence will be integrated into the platform through:
+- AI Study Assistant
+- PDF Summarization
+- AI Quiz Generation
+- Course-Aware Search
+
+AI-generated content may contain errors and should be reviewed by users. Access controls will protect private academic documents.
 
 ## Proposed Technology Stack
 
-  Component         Proposed Technology
-  ----------------- -------------------------------------
-  Frontend          Next.js, React.js, TypeScript
-  UI Styling        Tailwind CSS
-  Backend           Next.js API Routes
-  Database          Supabase PostgreSQL
-  Authentication    Supabase Auth
-  AI Integration    OpenAI API or Gemini API
-  PDF Processing    Python, PyMuPDF
-  AI Search         Embeddings, Supabase pgvector
-  Online Meetings   LiveKit
-  Cloud Storage     Google Drive API, OAuth 2.0
-  Notifications     Firebase Cloud Messaging, Email API
-  Version Control   Git, GitHub
-  Deployment        Vercel, Supabase
+| Component | Technology |
+|---|---|
+| Frontend | React.js |
+| Backend | Node.js, Express.js |
+| Database | PostgreSQL |
+| AI Integration | Python, LLM API |
+| File Storage | Google Drive API |
+| Authentication | JWT / OAuth 2.0 |
+| Real-Time Communication | WebRTC / Meeting API |
+| Version Control | Git and GitHub |
 
-*The final technology choices may be adjusted after feasibility testing,
-pricing review, and instructor feedback.*
+*The technology stack is proposed and may be adjusted during development.*
 
-## Initial Development Plan
-
-1.  Planning and design: requirements, UI wireframes, architecture, and
-    database design.
-2.  Core development: authentication, dashboards, courses, and academic
-    resources.
-3.  AI integration: study assistant, PDF summarization, and quiz
-    generation.
-4.  Collaboration: online meetings, cloud storage, and notifications.
-5.  Advanced features: course-aware search and further AI capabilities.
-6.  Testing and deployment: integration, security, performance testing,
-    and deployment.
-
-
-## Expected Outcome
-
-The project is expected to provide a centralized digital learning
-environment where students can access academic resources, organize
-files, receive AI-based study support, and participate in online
-meetings. Teachers will be able to share learning materials and
-announcements more efficiently. The platform aims to improve resource
-accessibility, learning support, and academic collaboration.
+## Project Scope
+The project will focus on developing a centralized university learning and collaboration platform with AI-powered academic assistance, educational resource management, notifications, and online meeting capabilities.
 
 ## Team Information
 
--   **Official Team Name:** CSE4104-7F-T03
--   **Team Leader:** MD Afif Zaman Arnob
--   **Member 1:** Israt Zahan
--   **Member 2:** Sumaya Rahman
--   **Member 3:** Rumman Shek
--   **GitHub Repository:** (https://github.com/afifarnob/AI-Powered-University-Learning-and-Collaboration-Platform)
+**Team Name:** CSE4104-7F-T03  
+**Section:** 7F
 
+### Team Members
+1. Israt Zahan
+2. Sumaya Rahman
+3. Rumman Shek
+4. MD Afif Zaman Arnob
 
+**Team Leader:** MD Afif Zaman Arnob
+
+## GitHub Repository
+[AI-Powered University Learning and Collaboration Platform](https://github.com/afifarnob/AI-Powered-University-Learning-and-Collaboration-Platform)
+
+## Project Status
+Currently in the planning and requirements analysis phase.
